@@ -3,9 +3,9 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/basiooo/andromodem/internal/adb"
-	"github.com/basiooo/andromodem/internal/model"
-	"github.com/basiooo/andromodem/internal/util"
+	"github.com/TimedPing/andromodem-mips/internal/adb"
+	"github.com/TimedPing/andromodem-mips/internal/model"
+	"github.com/TimedPing/andromodem-mips/internal/util"
 )
 
 func AdbChecker(adb *adb.Adb) func(http.Handler) http.Handler {

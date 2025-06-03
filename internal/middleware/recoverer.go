@@ -3,8 +3,8 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/basiooo/andromodem/internal/model"
-	"github.com/basiooo/andromodem/internal/util"
+	"github.com/TimedPing/andromodem-mips/model"
+	"github.com/TimedPing/andromodem-mips/util"
 )
 
 func Recoverer(next http.Handler) http.Handler {

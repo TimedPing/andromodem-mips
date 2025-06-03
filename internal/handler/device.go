@@ -4,9 +4,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/basiooo/andromodem/internal/model"
-	"github.com/basiooo/andromodem/internal/service"
-	"github.com/basiooo/andromodem/internal/util"
+	"https://github.com/TimedPing/andromodem-mips/internal/model"
+	"https://github.com/TimedPing/andromodem-mips/internal/service"
+	"https://github.com/TimedPing/andromodem-mips/internal/util"
 	"github.com/go-chi/chi/v5"
 )
 

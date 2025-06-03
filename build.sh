@@ -11,3 +11,6 @@ env GOOS=linux GOARCH=arm go build -o andromodem_arm ./cmd/andromodem
 
 # Build untuk arsitektur arm64
 env GOOS=linux GOARCH=arm64 go build -o andromodem_arm64 ./cmd/andromodem
+
+# Build untuk arsitektur arm64
+env GOOS=linux GOARCH=mips GOMIPS=softfloat go build -o andromodem_mips ./cmd/andromodem
